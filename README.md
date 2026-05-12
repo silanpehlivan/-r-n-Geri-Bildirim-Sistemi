@@ -1,158 +1,240 @@
-# 💬 Ürün Geri Bildirim Sistemi
+💬 Ürün Geri Bildirim Sistemi
 
-Bu proje, kullanıcıların ürünler hakkında geri bildirim oluşturmasını, görüntülemesini ve yönetmesini sağlayan bir masaüstü uygulamasıdır. Proje, **C#**, **Windows Forms (WinForms)** ve **SQL Server** teknolojileri kullanılarak geliştirilmiştir.
+Bu proje, kullanıcıların ürünler hakkında geri bildirim oluşturmasını, görüntülemesini ve yönetmesini sağlayan bir masaüstü uygulamasıdır. C# programlama dili, Windows Forms (WinForms) arayüzü ve SQL Server veritabanı kullanılarak geliştirilmiştir. Projenin temel amacı, kullanıcı geri bildirim süreçlerini dijital ortamda yönetmek ve temel veritabanı işlemlerini (CRUD) uygulamalı bir şekilde göstermektir.
 
-Amaç; kullanıcı geri bildirim süreçlerini dijital ortamda yönetmek ve temel veritabanı işlemlerini uygulamalı şekilde göstermektir.
 
----
 
-# 📝 Proje Hakkında
 
-Uygulama sayesinde kullanıcılar:
+📝 Proje Hakkında
 
-- Ürün yorumları oluşturabilir
-- Geri bildirim kayıtlarını görüntüleyebilir
-- Verileri düzenleyebilir ve silebilir
-- SQL tabanlı veri yönetimi gerçekleştirebilir
+Uygulama, kullanıcıların ürünlerle ilgili yorum ve puanlama yapabildiği, bu geri bildirimleri yönetebildiği kapsamlı bir sistem sunar. Temel olarak aşağıdaki modülleri içerir:
 
-Proje, temel CRUD işlemlerini (Create, Read, Update, Delete) içeren kullanıcı dostu bir geri bildirim sistemi sunmaktadır.
+•
+Kullanıcı Yönetimi: Kullanıcıların sisteme kaydolması, giriş yapması ve bilgilerini yönetmesi.
 
----
+•
+Ürün Yönetimi: Ürünlerin eklenmesi, güncellenmesi, silinmesi ve listelenmesi.
 
-# ⚙️ Teknik Detaylar
+•
+Kategori Yönetimi: Ürünlerin kategorilere ayrılması ve kategori bilgilerinin yönetilmesi.
 
-| Özellik | Açıklama |
-|---|---|
-| Dil | C# |
-| Platform | .NET Framework |
-| Arayüz | Windows Forms (WinForms) |
-| Veritabanı | SQL Server |
-| IDE | Visual Studio |
-| Mimari | OOP (Nesne Yönelimli Programlama) |
+•
+Geri Bildirim Yönetimi: Kullanıcıların ürünler hakkında puan ve yorum bırakması, bu geri bildirimlerin görüntülenmesi, güncellenmesi ve silinmesi.
 
----
+Proje, kullanıcı dostu bir arayüz ile temel CRUD (Create, Read, Update, Delete) işlemlerini etkin bir şekilde gerçekleştirmektedir.
 
-# 🚀 Kullanılan Teknolojiler
 
-- C#
-- WinForms
-- SQL Server
-- ADO.NET
-- DataSet Yapıları
-- CRUD İşlemleri
-- OOP (Object Oriented Programming)
 
----
 
-# 📋 Temel Özellikler
+⚙️ Teknik Detaylar
 
-## ✅ Geri Bildirim Yönetimi
-- Yeni geri bildirim ekleme
-- Kullanıcı yorumları oluşturma
-- Ürün değerlendirme sistemi
+Özellik
+Açıklama
+Dil
+C#
+Platform
+.NET Framework 4.7.2
+Arayüz
+Windows Forms (WinForms)
+Veritabanı
+SQL Server
+IDE
+Visual Studio
+Mimari
+Nesne Yönelimli Programlama (OOP) İlkeleri
+Veri Erişim
+ADO.NET, Typed DataSet Yapıları
+Şifreleme
+SHA-256 (Giriş Ekranı), BCrypt (Kullanıcı Kayıt/Güncelleme)
 
-## ✅ Veritabanı İşlemleri
-- SQL bağlantısı
-- Veri listeleme
-- Güncelleme ve silme işlemleri
 
-## ✅ Dinamik Form Yapısı
-- Çoklu form yönetimi
-- Kullanıcı dostu arayüz
-- Veri giriş ekranları
 
-## ✅ CRUD İşlemleri
-- Create (Ekleme)
-- Read (Listeleme)
-- Update (Güncelleme)
-- Delete (Silme)
 
----
 
-# 🛠️ Kurulum ve Çalıştırma
 
-## 1️⃣ Projeyi İndirin
 
-```bash
-git clone <repo-link>
-```
+🚀 Kullanılan Teknolojiler ve Kütüphaneler
 
-veya ZIP olarak indirip çıkarın.
+Proje geliştirilirken aşağıdaki temel teknolojiler ve NuGet paketleri kullanılmıştır:
 
----
+•
+C#: Uygulamanın ana programlama dili.
 
-## 2️⃣ Visual Studio ile Açın
+•
+Windows Forms: Kullanıcı arayüzünün oluşturulması için kullanılan .NET Framework teknolojisi.
 
-`Sql_Proje.sln` dosyasını Visual Studio üzerinden açın.
+•
+SQL Server: Veritabanı yönetim sistemi.
 
----
+•
+ADO.NET: Veritabanı bağlantısı ve veri işlemleri için kullanılan .NET veri erişim teknolojisi.
 
-## 3️⃣ Veritabanını Yapılandırın
+•
+Typed DataSet: Veritabanı tablolarının uygulama içinde tip güvenli bir şekilde temsil edilmesi.
 
-SQL Server üzerinde gerekli veritabanını oluşturup bağlantı ayarlarını `App.config` dosyasından düzenleyin.
+•
+BCrypt.Net-Next: Kullanıcı şifrelerinin güvenli bir şekilde hash'lenmesi için kullanılan kütüphane.
 
----
+•
+Bunifu.UI.WinForms: Modern UI bileşenleri ve tasarım öğeleri için kullanılan üçüncü taraf kütüphane.
 
-## 4️⃣ Projeyi Çalıştırın
+•
+MaterialSkin.2: Material Design prensiplerine uygun arayüz tasarımı için kullanılan kütüphane.
 
-Visual Studio içerisinde:
 
-```bash
-F5
-```
 
-tuşuna basarak projeyi çalıştırabilirsiniz.
 
----
+📋 Temel Özellikler
 
-# 📂 Proje Yapısı
+✅ Kullanıcı Kimlik Doğrulama ve Yönetimi
 
-```bash
-Ürün-Geri-Bildirim-Sistemi/
-│
-├── Form1.cs
-├── Form2.cs
-├── Form3.cs
-├── Program.cs
-├── App.config
-├── MusteriBildirimiDataSet.xsd
-├── Sql_Proje.csproj
-├── Sql_Proje.sln
-├── Resources/
-└── README.md
-```
+•
+Güvenli kullanıcı girişi (SHA-256 hash ile şifre kontrolü).
 
-| Dosya | Açıklama |
-|---|---|
-| `Form1.cs` | Ana ekran |
-| `Form2.cs` | Veri giriş ekranı |
-| `Program.cs` | Uygulama başlangıç noktası |
-| `App.config` | Veritabanı bağlantı ayarları |
-| `MusteriBildirimiDataSet.xsd` | Veri kümesi yapısı |
-| `.sln` | Visual Studio çözüm dosyası |
+•
+Yeni kullanıcı kaydı (BCrypt ile şifre hash'leme).
 
----
+•
+Kullanıcı bilgilerini görüntüleme, güncelleme ve silme.
 
-# 🎯 Projenin Amacı
+✅ Ürün Yönetimi
 
-Bu proje sayesinde:
+•
+Yeni ürün ekleme (Ad, Açıklama, Fiyat, Stok Miktarı, Kategori).
 
-- SQL bağlantı işlemleri öğrenilir.
-- CRUD mantığı uygulanır.
-- WinForms uygulama geliştirme pratiği kazanılır.
-- Veritabanı tabanlı masaüstü uygulama geliştirilir.
-- Kullanıcı geri bildirim süreçleri dijitalleştirilir.
+•
+Mevcut ürün bilgilerini güncelleme.
 
----
+•
+Ürünleri silme (ilişkili geri bildirimleri de siler).
 
-# 📜 Lisans
+•
+Ürünleri kategoriye göre listeleme.
 
-Bu proje **MIT License** ile lisanslanmıştır.
+✅ Kategori Yönetimi
 
-Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+•
+Yeni kategori ekleme.
 
----
+•
+Mevcut kategori adlarını güncelleme.
 
-## 👩‍💻 Author
+•
+Kategorileri silme (ilişkili ürünleri 'Diğer' kategoriye taşır).
+
+✅ Geri Bildirim ve Değerlendirme Sistemi
+
+•
+Ürünler için puan (1-5 arası) ve yorum bırakma.
+
+•
+Mevcut geri bildirimleri görüntüleme, güncelleme ve silme.
+
+•
+Geri bildirimleri ürün ve kullanıcı bazında yönetme.
+
+
+
+
+🛠️ Kurulum ve Çalıştırma
+
+Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımları izleyin:
+
+1️⃣ Projeyi İndirin
+
+Projeyi ZIP olarak indirip istediğiniz bir dizine çıkarın.
+
+2️⃣ Visual Studio ile Açın
+
+Çıkarılan klasördeki Sql_Proje.sln dosyasını Visual Studio (2019 veya üzeri önerilir) ile açın.
+
+3️⃣ Veritabanını Yapılandırın
+
+Proje, iki ana veritabanı bağlantısı kullanmaktadır: MusteriBildirimi ve ÜrünBildirimi. Bu veritabanlarını SQL Server üzerinde oluşturmanız ve App.config dosyasındaki bağlantı dizelerini kendi SQL Server yapılandırmanıza göre güncellemeniz gerekmektedir. Örnek bağlantı dizeleri App.config dosyasında aşağıdaki gibi görünmektedir:
+
+XML
+
+
+<connectionStrings>
+    <add name="Sql_Proje.Properties.Settings.MusteriBildirimiConnectionString"
+        connectionString="Data Source=LAPTOP-EMFFS378;Initial Catalog=MusteriBildirimi;Integrated Security=True;Encrypt=False"
+        providerName="System.Data.SqlClient" />
+    <add name="Sql_Proje.Properties.Settings.ÜrünBildirimiConnectionString"
+        connectionString="Data Source=LAPTOP-EMFFS378;Initial Catalog=ÜrünBildirimi;Integrated Security=True;TrustServerCertificate=True"
+        providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+
+
+Not: LAPTOP-EMFFS378 yerine kendi SQL Server adınızı veya IP adresinizi yazmanız gerekmektedir. Encrypt=False ve TrustServerCertificate=True ayarları, yerel geliştirme ortamları için uygun olabilir ancak üretim ortamlarında güvenlik önlemleri gözden geçirilmelidir.
+
+Veritabanı tablolarını oluşturmak için gerekli SQL scriptleri genellikle projenin Sql_Proje.zip veya benzeri bir dosya içinde bulunabilir. Eğer yoksa, MusteriBildirimiDataSet.xsd ve ÜrünBildirimiDataSet.xsd dosyalarındaki şema tanımlarından faydalanarak tabloları manuel olarak oluşturmanız gerekebilir.
+
+4️⃣ Projeyi Çalıştırın
+
+Visual Studio içerisinde F5 tuşuna basarak veya Başlat butonuna tıklayarak projeyi çalıştırabilirsiniz. Uygulama, FormKG (Giriş Formu) ile başlayacaktır.
+
+
+
+
+📂 Proje Yapısı
+
+Plain Text
+
+
+.Geri-Bildirim-Sistemi-master/
+├── App.config                     # Uygulama yapılandırma ve veritabanı bağlantı dizeleri
+├── Form1.cs (FormKG)              # Kullanıcı giriş ekranı (Login)
+├── Form2.cs                       # Ana menü ekranı (Modül seçimleri)
+├── Form3.cs (Formkullanıcı)       # Kullanıcı yönetimi ekranı (CRUD)
+├── Form4.cs (Formkategori)        # Kategori yönetimi ekranı (CRUD)
+├── Form5.cs (Formürünler)         # Ürün yönetimi ekranı (CRUD)
+├── Form6.cs (FormGeriBildirim)    # Geri bildirim yönetimi ekranı (CRUD)
+├── Form7.cs (Formürünresmi)       # Ürün resmi görüntüleme (minimal)
+├── Program.cs                     # Uygulamanın başlangıç noktası
+├── MusteriBildirimiDataSet.xsd    # Müşteri bildirimleri için Typed DataSet şeması
+├── ÜrünBildirimiDataSet.xsd       # Ürün bildirimleri için Typed DataSet şeması
+├── Sql_Proje.csproj               # C# proje dosyası
+├── Sql_Proje.sln                  # Visual Studio çözüm dosyası
+├── Resources/                     # Uygulama kaynakları (resimler, ikonlar vb.)
+├── packages.config                # NuGet paket bağımlılıkları
+└── LICENSE                        # Proje lisans bilgisi
+
+
+
+
+
+
+🎯 Projenin Amacı
+
+Bu proje, aşağıdaki öğrenim ve uygulama hedeflerini gerçekleştirmek üzere tasarlanmıştır:
+
+•
+SQL Veritabanı Entegrasyonu: C# WinForms uygulamaları ile SQL Server veritabanı arasında bağlantı kurma ve veri manipülasyonu yapma.
+
+•
+CRUD İşlemleri: Veritabanı üzerinde Create, Read, Update, Delete (CRUD) operasyonlarının pratik uygulaması.
+
+•
+Windows Forms Geliştirme: Kullanıcı arayüzü tasarımı ve olay tabanlı programlama prensipleriyle masaüstü uygulamaları geliştirme.
+
+•
+Nesne Yönelimli Programlama (OOP): Projede OOP prensiplerini (sınıflar, nesneler, metotlar vb.) uygulama.
+
+•
+Kullanıcı Geri Bildirim Yönetimi: Gerçek dünya senaryolarında kullanıcı geri bildirimlerini dijital bir platformda yönetme yeteneği kazanma.
+
+
+
+
+📜 Lisans
+
+Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için lütfen LICENSE dosyasını inceleyiniz.
+
+
+
+
+👩‍💻 Yazar
 
 Şilan Pehlivan
+
