@@ -60,17 +60,38 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 
 # 📂 Proje Yapısı
 
-    .Geri-Bildirim-Sistemi-master/
-    ├── App.config
-    ├── Form1.cs (Giriş Ekranı)
-    ├── Form2.cs (Ana Menü)
-    ├── Form3.cs (Kullanıcı Yönetimi)
-    ├── Form4.cs (Kategori Yönetimi)
-    ├── Form5.cs (Ürün Yönetimi)
-    ├── Form6.cs (Geri Bildirim)
-    ├── Program.cs
-    ├── Sql_Proje.sln
-    └── LICENSE
+
+```plaintext
+.Geri-Bildirim-Sistemi-master/
+├── App.config                               # Uygulama yapılandırma ve veritabanı bağlantı dizeleri
+├── Form1.cs (FormKG)                        # Kullanıcı giriş ekranı (Login)
+├── Form2.cs                                 # Ana menü ekranı (Modül seçimleri)
+├── Form3.cs (Formkullanıcı)                 # Kullanıcı yönetimi ekranı (CRUD)
+├── Form4.cs (Formkategori)                  # Kategori yönetimi ekranı (CRUD)
+├── Form5.cs (Formürünler)                   # Ürün yönetimi ekranı (CRUD)
+├── Form6.cs (FormGeriBildirim)              # Geri bildirim yönetimi ekranı (CRUD)
+├── Form7.cs (Formürünresmi)                 # Ürün resmi görüntüleme ekranı
+├── Program.cs                               # Uygulamanın başlangıç noktası
+
+├── MusteriBildirimiDataSet.Designer.cs      # Müşteri bildirimleri için Typed DataSet tasarım dosyası
+├── MusteriBildirimiDataSet.xsc              # Müşteri bildirimleri için şema kontrol dosyası
+├── MusteriBildirimiDataSet.xsd              # Müşteri bildirimleri için Typed DataSet şeması
+├── MusteriBildirimiDataSet.xss              # Müşteri bildirimleri için şema depolama dosyası
+
+├── ÜrünBildirimiDataSet.Designer.cs         # Ürün bildirimleri için Typed DataSet tasarım dosyası
+├── ÜrünBildirimiDataSet.xsc                 # Ürün bildirimleri için şema kontrol dosyası
+├── ÜrünBildirimiDataSet.xsd                 # Ürün bildirimleri için Typed DataSet şeması
+├── ÜrünBildirimiDataSet.xss                 # Ürün bildirimleri için şema depolama dosyası
+
+├── Sql_Proje.csproj                         # C# proje dosyası
+├── Sql_Proje.sln                            # Visual Studio çözüm dosyası
+
+├── Resources/                               # Uygulama kaynak dosyaları (ikonlar, görseller vb.)
+├── Properties/                              # Proje ayarları ve yapılandırma dosyaları
+├── packages.config                          # NuGet paket bağımlılıkları
+
+└── LICENSE                                  # Proje lisans bilgisi
+```
 
 ---
 
