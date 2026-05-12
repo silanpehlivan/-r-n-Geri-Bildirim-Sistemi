@@ -93,13 +93,10 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 ```
 
 ---
+## 📜 Lisans
 
-# 📜 Lisans
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için lütfen `LICENSE` dosyasını inceleyiniz.
-
----
-
-# 👩‍💻 Geliştirici
+## 👩‍💻 Geliştirici
 
 Şilan Pehlivan
