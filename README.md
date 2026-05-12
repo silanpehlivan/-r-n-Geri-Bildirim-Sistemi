@@ -100,6 +100,6 @@ Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için lütfen `LI
 
 ---
 
-# 👩‍💻 Yazar
+# 👩‍💻 Geliştirici
 
 Şilan Pehlivan
