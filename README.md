@@ -8,16 +8,16 @@ Bu proje, kullanıcıların ürünler hakkında geri bildirim oluşturmasını, 
 
 Uygulama, kullanıcıların ürünlerle ilgili yorum ve puanlama yapabildiği, bu geri bildirimleri yönetebildiği bir sistem sunar. Temel olarak aşağıdaki işlevleri yerine getirir:
 
-- Kullanıcı Yönetimi  
+- **Kullanıcı Yönetimi**  
 Kullanıcıların sisteme giriş yapması ve bilgilerini yönetmesi.
 
-- Ürün Yönetimi  
+- **Ürün Yönetimi**  
 Ürünlerin eklenmesi, güncellenmesi, silinmesi ve listelenmesi.
 
-- Kategori Yönetimi  
+- **Kategori Yönetimi**  
 Ürünlerin kategorilere ayrılması ve kategori bilgilerinin yönetilmesi.
 
-- Geri Bildirim Yönetimi  
+- **Geri Bildirim Yönetimi**  
 Kullanıcıların ürünler hakkında puan ve yorum bırakması, bu geri bildirimlerin görüntülenmesi, güncellenmesi ve silinmesi.
 
 ---
@@ -59,7 +59,6 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 ---
 
 # 📂 Proje Yapısı
-
 
 ```plaintext
 .Geri-Bildirim-Sistemi-master/
