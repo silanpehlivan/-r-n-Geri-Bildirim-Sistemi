@@ -60,7 +60,7 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 
 # 📂 Proje Yapısı
 
-```text
+```plaintext
 .Geri-Bildirim-Sistemi-master/
 ├── App.config                               # Uygulama yapılandırma ve veritabanı bağlantı dizeleri
 ├── Form1.cs (FormKG)                        # Kullanıcı giriş ekranı (Login)
