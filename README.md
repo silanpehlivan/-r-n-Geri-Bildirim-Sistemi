@@ -2,18 +2,33 @@
 
 # Ürün Geri Bildirim Sistemi
 
-**Masaüstü ürün ve yorum yönetimi**
+### Ürünlerle kullanıcı geri bildirimlerini buluştur.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=flat-square)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-7c3aed?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=for-the-badge)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-7c3aed?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Ürün, kategori, kullanıcı ve geri bildirim kayıtlarını yöneten SQL Server destekli masaüstü uygulaması.
+
+**Masaüstü ürün ve yorum yönetimi**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/-r-n-Geri-Bildirim-Sistemi/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Ürün ve kategori kayıt işlemleri
+- **02** · Yorum ve puanlama yönetimi
+- **03** · Kullanıcı giriş ekranı ve çoklu form yapısı
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -25,23 +40,22 @@
 
 C# · Windows Forms · SQL Server
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 WinForms ekranları ürün, kullanıcı ve yorum işlemlerini SQL Server kayıtlarıyla ilişkilendirir. Çoklu form yapısı masaüstü iş akışını görünür kılar.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Form1.cs](Form1.cs)
 - [Program.cs](Program.cs)
 - [Form2.cs](Form2.cs)
 - [Form3.cs](Form3.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Çalıştırma için uygun veritabanı kurulumu gerekir; örnek bağlantı ayarları yerel ortama uyarlanmalıdır.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, kullanıcıların ürünler hakkında geri bildirim oluşturmasını, görüntülemesini ve yönetmesini sağlayan bir masaüstü uygulamasıdır. C#, Windows Forms (WinForms) ve SQL Server teknolojileri kullanılarak geliştirilmiştir.
 
@@ -136,6 +150,8 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 ```
 
 ---
+
+
 
 
 </details>
