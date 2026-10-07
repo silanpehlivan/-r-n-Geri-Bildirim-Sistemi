@@ -25,6 +25,21 @@
 
 C# · Windows Forms · SQL Server
 
+## Teknik yaklaşım
+
+WinForms ekranları ürün, kullanıcı ve yorum işlemlerini SQL Server kayıtlarıyla ilişkilendirir. Çoklu form yapısı masaüstü iş akışını görünür kılar.
+
+## Kodu incelemeye başlayın
+
+- [Form1.cs](Form1.cs)
+- [Program.cs](Program.cs)
+- [Form2.cs](Form2.cs)
+- [Form3.cs](Form3.cs)
+
+## Kapsam ve sınırlar
+
+Çalıştırma için uygun veritabanı kurulumu gerekir; örnek bağlantı ayarları yerel ortama uyarlanmalıdır.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
