@@ -1,10 +1,38 @@
-# 💬 Ürün Geri Bildirim Sistemi
+<div align="center">
+
+# Ürün Geri Bildirim Sistemi
+
+**Masaüstü ürün ve yorum yönetimi**
+
+![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0891b2?style=flat-square)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-7c3aed?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Ürün, kategori, kullanıcı ve geri bildirim kayıtlarını yöneten SQL Server destekli masaüstü uygulaması.
+
+</div>
+
+---
+
+## Öne Çıkanlar
+
+- Ürün ve kategori kayıt işlemleri
+- Yorum ve puanlama yönetimi
+- Kullanıcı giriş ekranı ve çoklu form yapısı
+
+## Teknolojiler
+
+C# · Windows Forms · SQL Server
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 Bu proje, kullanıcıların ürünler hakkında geri bildirim oluşturmasını, görüntülemesini ve yönetmesini sağlayan bir masaüstü uygulamasıdır. C#, Windows Forms (WinForms) ve SQL Server teknolojileri kullanılarak geliştirilmiştir.
 
 ---
 
-# 📝 Proje Hakkında
+## Proje Hakkında
 
 Uygulama, kullanıcıların ürünlerle ilgili yorum ve puanlama yapabildiği, bu geri bildirimleri yönetebildiği bir sistem sunar. Temel olarak aşağıdaki işlevleri yerine getirir:
 
@@ -22,7 +50,7 @@ Kullanıcıların ürünler hakkında puan ve yorum bırakması, bu geri bildiri
 
 ---
 
-# ⚙️ Teknik Detaylar
+## Teknik Detaylar
 
 | Özellik | Açıklama |
 |---|---|
@@ -33,7 +61,7 @@ Kullanıcıların ürünler hakkında puan ve yorum bırakması, bu geri bildiri
 
 ---
 
-# 🚀 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - C#
 - Windows Forms
@@ -44,7 +72,7 @@ Kullanıcıların ürünler hakkında puan ve yorum bırakması, bu geri bildiri
 
 ---
 
-# 🛠️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımları izleyin:
 
@@ -58,7 +86,7 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 
 ---
 
-# 📂 Proje Yapısı
+## Proje Yapısı
 
 ```plaintext
 .Geri-Bildirim-Sistemi-master/
@@ -93,10 +121,16 @@ Projeyi yerel ortamınızda kurmak ve çalıştırmak için aşağıdaki adımla
 ```
 
 ---
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
-## 👩‍💻 Geliştirici
+</details>
 
-Şilan PEHLİVAN
+---
+
+<div align="center">
+
+**© 2025 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>
